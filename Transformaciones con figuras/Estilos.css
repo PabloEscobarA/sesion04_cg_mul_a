@@ -1,0 +1,97 @@
+body {
+    margin:0;
+    backgroud: #ddd;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+.huevo {
+    margin: 150px 15px;
+    width: 180px;
+    height: 220px;
+    background-color: blueviolet;
+    -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    line-height: 200px;
+    transition: all 1s;
+}
+.oval-half-red {
+    margin: 150px 15px;
+    width: 250px;
+    height: 100px;
+    -moz-border-radius: 0 50% / 0 100%;
+    -webkit-border-radius: 0 50% / 0 100%;
+    border-radius: 0 50% / 0 100%;
+    background: #b5d817;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    line-height: 120px;
+    transition: all 1s;
+}
+.oval {
+    margin: 150px 15px;
+    width: 250px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #3ffc26;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    transition: all 1s;
+}
+.circulo {
+    margin: 150px 15px;
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #e9581f;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    line-height: 140px;
+    transition: all 1s;
+}
+.caja {
+    margin: 150px 15px;
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    transition: all 1s;
+}
+
+.huevo:nth-child(1):hover{
+    background: purple;
+    transform: translateY(50px);
+}
+
+.oval-half-red:nth-child(2):hover{
+    background: rgb(19, 204, 195);
+    transform:rotate(50deg);
+}
+
+.oval:nth-child(3):hover{
+    background: blue;
+    transform: scale(2,2);
+}
+
+.circulo:nth-child(4):hover{
+    background: pink;
+    transform: skew(25deg);
+}
