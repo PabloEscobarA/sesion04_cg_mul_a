@@ -1,0 +1,38 @@
+body {
+    margin:0;
+    backgroud: #ddd;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    margin: 150px 15px;
+    width: 150px;
+    height: 150px;
+    background: crimson;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    transition: all 1s;
+}
+
+.caja:nth-child(1):hover {
+    background-color: darkgoldenrod;
+    transform: translateY(200px)
+}
+.caja:nth-child(2):hover {
+    background-color: darkorchid;
+    transform: rotate(20deg);
+}
+.caja:nth-child(3):hover {
+    background-color: gold;
+    transform: scale(2,2    );
+}
+.caja:nth-child(4):hover {
+    background-color: green;
+    transform: skew(40deg);
+}
